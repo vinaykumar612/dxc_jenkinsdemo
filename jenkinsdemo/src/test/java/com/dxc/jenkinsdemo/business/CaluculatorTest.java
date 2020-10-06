@@ -29,11 +29,11 @@ public class CaluculatorTest
 	@Test
 	public void testPower()
 	{
-		assertEquals(30,calc.power(5,3));
+		assertEquals(125,calc.power(5,3));
 	}
 	@Test
 	public void testDiv()
 	{
-		assertEquals(30,calc.divide(10, 5));
+		assertEquals(2,calc.divide(10, 5));
 	}
 }
