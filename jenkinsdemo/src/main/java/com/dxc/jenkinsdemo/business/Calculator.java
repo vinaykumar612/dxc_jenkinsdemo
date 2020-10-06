@@ -10,24 +10,21 @@ public class Calculator
 	{
 		return x*x;
 	}
-	public int power(int x,int n)
-	{
-		int res=1;
-		for(;n>0;n--)
-			res=res*x;
-		return res;
-	}
-	public int divide(int x,int y)
-	{
-		int res=0;
-		try
-		{
-			res=x/y;
-		}
-		catch(ArithmeticException ex)
-		{
-			
-		}
-		return res;
-	}
+	public int power(int x , int n)
+ 	 {
+	 int res =1;
+	 for(;n>0;n--)
+		 res = res * x;
+	 return res;
+  	}
+  	public int divide(int x , int y)
+  	{
+	  int res =0;
+	  try
+	  {
+		  res = x/y;		  
+	  }
+	  catch(ArithmeticException ex) {  }
+      	return res;
+  	}
 }
